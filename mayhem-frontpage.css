@@ -27,8 +27,7 @@ div.img_counter_page a, a.current {
 	background: url('http://mayhemcomics.com/documents/filelibrary/homepage_images/column_bg_5DE297C61B2CB.png') repeat-x;
 }
 #cbWrap {
-	margin: 270px 0 0 2px;
-	/*** Use 145px for top to use smaller banners, 270px for large ***/
+	margin: 145px 0 0 2px;
 	min-height: 371px;
 	padding: 0;
 }
@@ -56,13 +55,7 @@ div.img_counter_page a, a.current {
 .floatLeft img {
 	float: left;
 }
-.floatRight {
-	display: inline;
-	left: 0;
-	margin-left: 0;
-	/*height:140px;*/
-	margin-top: 70px;
-}
+
 .event {
 	height: 60px;
 	float: left;
@@ -84,32 +77,7 @@ div.img_counter_page a, a.current {
 #event3:hover {
 	background-position: 0 -60px;
 }
-.timeWrap {
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	height: 140px;
-	bottom: 0;
-	position: absolute;
-	width: 100%;
-}
-.time-to {
-	text-align: center;
-	font-family: Bangers;
-	color: white;
-	font-size: 35px;
-	letter-spacing: 2px;
-}
-#clock {
-	font-size: 50px;
-	color: red;
-	margin-top: 25px;
-	display: block;
-}
+
 /*** Uncomment to enable bottom banner
 
 #adWrap {
@@ -141,3 +109,45 @@ div.cbTitle h1 {
 	margin: 4em auto;
 	width: 75%;
 }
+
+
+/****** Countdown Clock ******/
+
+/*
+#cbWrap {
+	margin: 270px 0 0 2px;
+}
+
+.floatRight {
+	display: inline;
+	left: 0;
+	margin-left: 0;
+	margin-top: 70px;
+}
+
+.timeWrap {
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 140px;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+.time-to {
+	text-align: center;
+	font-family: Bangers;
+	color: white;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+#clock {
+	font-size: 50px;
+	color: red;
+	margin-top: 25px;
+	display: block;
+}*/
