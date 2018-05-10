@@ -56,6 +56,10 @@ div.img_counter_page a, a.current {
 	float: left;
 }
 
+.floatRight {
+	display:none;
+}
+
 .event {
 	height: 60px;
 	float: left;
